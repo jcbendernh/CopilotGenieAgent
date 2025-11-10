@@ -7,7 +7,7 @@ This repository contains a Power Apps solution file that creates a Copilot Agent
 ## Solution Components
 
 The solution file in the src directory is based off of the [Copilot-and-Genie
-](https://github.com/v7herman4/Copilot-and-Genie) repository posted by [Valter Herman](https://www.linkedin.com/in/valter-e-herman/) and [Melissa Lacefield](https://www.linkedin.com/in/melissa-lacefield-phd-2471116/) 
+](https://github.com/v7herman4/Copilot-and-Genie) repository posted by [Valter Herman](https://www.linkedin.com/in/valter-e-herman/) and [Melissa Lacefield](https://www.linkedin.com/in/melissa-lacefield-phd-2471116/).  They have document many of the steps needed to import and configure the solution.
 
 The key components of the solution file are the following:
 
