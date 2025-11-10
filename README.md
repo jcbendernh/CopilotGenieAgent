@@ -20,4 +20,4 @@ The key components of the solution file are the following:
 | Databricks Workspace URL | This is saved as an environmental value within Dataverse and is called in the Ask Databricks Genie cloud flow. |
 | Genie Space ID | This is saved as an environmental value within Dataverse and is called in the Ask Databricks Genie cloud flow. |
 
-NOTE:  Before you import the solution, you will need to create a Key Vault Connection and have it validated, otherwise the solution will fail during the import process.  Go to https://make.powerapps.com/ and click on Connections and click <B>+ New connection</b> to add the Key Vault Connection beforehand.
+NOTE:  Before you import the solution, you will need to create a Key Vault Connection in Power Apps and have it validated, otherwise the solution will fail during the import process.  Go to https://make.powerapps.com/ and click on Connections and click <B>+ New connection</b> to add the Key Vault Connection beforehand.
