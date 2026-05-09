@@ -24,16 +24,18 @@ The key components of the solution file are the following:
 
 NOTE:  Before you import the solution into PowerApps, you will need to create a Key Vault Connection and have it validated, otherwise the solution will fail during the import process.  Go to https://make.powerapps.com/ and click on Connections and click <B>+ New connection</b> to add the Key Vault Connection to your Power Apps environment beforehand.
 
-This uses a Microsoft Entra Service Principal, you will need to add the Microsoft Entra Service Principal to Databricks and give it the following permissions in Databricks to Utilize the Genie Spaces.
-•	Genie Space: 
-    o	CAN USE 
-•	SQL Warehouse: 
-    o	CAN USE 
-•	Unity Catalog: 
-    o	USE CATALOG 
-    o	USE SCHEMA 
-    o	SELECT on tables/views
+This uses a Microsoft Entra Service Principal, you will need to add the Microsoft Entra Service Principal to Databricks and give it the following permissions in Databricks to Utilize the Genie Spaces.<BR>
+•	Genie Space: <BR>
+    o	CAN USE <BR>
+•	SQL Warehouse: <BR>
+    o	CAN USE <BR>
+•	Unity Catalog: <BR>
+    o	USE CATALOG <BR>
+    o	USE SCHEMA <BR>
+    o	SELECT on tables/views<BR>
 
 For more information on this topic, check out [Manage service principals](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/manage-service-principals)
 
-You will also need to add the Service Principal App ID, Service Principal Client Secret and Tenant ID as secrets to Azure Key Vault.  The user running this will need to the <B>Key Vault Secrets User</B> RBAC permission in Key Vault to utilize the Cloud Flow.
+You will also need to add the <B>Service Principal App ID, Service Principal Client Secret and Tenant ID</B> as client secrets to Azure Key Vault.  The user adding these will need the <B>Key Vault Secrets Officer</B> and the <B>Key Vault Contributor</B> RBAC permissions in Kay Vault.
+
+The user running this will need to the <B>Key Vault Secrets User</B> RBAC permission in Key Vault to utilize the Cloud Flow.
