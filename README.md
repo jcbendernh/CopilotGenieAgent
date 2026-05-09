@@ -25,14 +25,14 @@ The key components of the solution file are the following:
 NOTE:  Before you import the solution into PowerApps, you will need to create a Key Vault Connection and have it validated, otherwise the solution will fail during the import process.  Go to https://make.powerapps.com/ and click on Connections and click <B>+ New connection</b> to add the Key Vault Connection to your Power Apps environment beforehand.
 
 This uses a Microsoft Entra Service Principal, you will need to add the Microsoft Entra Service Principal to Databricks and give it the following permissions in Databricks to Utilize the Genie Spaces.<BR>
-•	Genie Space: <BR>
-    o	CAN USE <BR>
-•	SQL Warehouse: <BR>
-    o	CAN USE <BR>
-•	Unity Catalog: <BR>
-    o	USE CATALOG <BR>
-    o	USE SCHEMA <BR>
-    o	SELECT on tables/views<BR>
+- Genie Space:
+    - CAN USE 
+- SQL Warehouse:
+    - CAN USE
+- Unity Catalog: 
+    - USE CATALOG 
+    - USE SCHEMA 
+    - SELECT on tables/views
 
 For more information on this topic, check out [Manage service principals](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/manage-service-principals)
 
